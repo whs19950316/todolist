@@ -1,0 +1,125 @@
+.main{
+	height: 650px;
+	width: 360px;
+	margin: 0px;
+	padding: 0px;
+	background-color: 	#F0F0F0;				
+}
+.topT{
+	width: 360px;
+	height: 45px;
+	background-color: black;
+	color: white;
+	margin: 0px;
+	display: flex;
+	justify-content:space-around;
+}
+.h1{
+	font-size: 16px;
+	
+}
+#textIn{
+	height: 30px;
+	width: 190px;
+	border-radius: 5px;
+	margin-top: 5px;
+	padding-left:20px ;
+}
+
+.todolist{
+	margin: 0px;
+}
+.todolist .now{
+	display: flex;
+	justify-content: space-between;
+	padding-left: 20px;
+	padding-right: 25px;
+	
+}
+.todolist .now .h2{
+	font-size: 20px;
+}
+.todolist .now .num{
+	border: 1px solid pink;
+	background-color: pink;
+	width: 30px;
+	height: 25px;
+	border-radius:15px ;
+	margin: auto 15px;
+	text-align: center;
+	color: white;
+}
+
+/*
+ * 输入部分
+ */
+.tdl{
+	background-color: white;
+	width: 330px;
+	height: 28px;
+	margin: auto;
+	border-radius: 5px;
+	padding-top: 5px;
+	position: relative;
+	margin-bottom: 10px;
+}
+.tdl:before{
+	content: "";
+	width: 8px;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background: greenyellow;
+	border-bottom-left-radius: 5px;
+	border-top-left-radius: 5px;
+}
+.tdl .tdl_left{
+	padding-left: 10px;
+	display:flex;
+	/*justify-content: space-between;*/
+	position: relative;
+}
+.tdl .tdl_left .btn{
+	width: 20px;
+	height: 22px;
+	type:reset;
+	border: 5px solid #F0F0F0;
+}
+.tdl .tdl_left .outtext{
+	margin-left: 10px;
+}
+
+.tdl .tdl_left .img{
+	height: 22px;
+	width: 24px;
+	margin-left: 172px;
+	position: absolute;
+	right: 30px;
+	bottom: 0px;
+}
+
+
+.donelist{
+	margin: 0px;
+}
+.donelist .now{
+	display: flex;
+	justify-content: space-between;
+	padding-left: 20px;
+	padding-right: 25px;
+	
+}
+.donelist .now .h2{
+	font-size: 20px;
+}
+.donelist .now .num{
+	border: 1px solid greenyellow;
+	background-color: greenyellow;
+	width: 30px;
+	height: 25px;
+	border-radius:15px ;
+	margin: auto 15px;
+	text-align: center;
+	color: white;
+}
